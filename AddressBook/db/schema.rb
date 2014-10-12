@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20141012213230) do
   create_table "addresses", force: true do |t|
     t.string   "name"
     t.string   "office_phone"
+    t.string   "home_phone"
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
